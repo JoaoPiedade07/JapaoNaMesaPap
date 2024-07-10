@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/body_container"
+    android:background="@color/white"
+    tools:context=".ecraprincipal.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="745dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/appBar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/udonImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/udon"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Udon"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@id/udonImg"
+                app:layout_constraintEnd_toEndOf="@id/udonImg"
+                app:layout_constraintStart_toStartOf="@id/udonImg"
+                app:layout_constraintTop_toTopOf="@id/udonImg" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ramenImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/ramen1"
+                app:layout_constraintTop_toBottomOf="@id/udonImg"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ramen"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@id/ramenImg"
+                app:layout_constraintEnd_toEndOf="@id/ramenImg"
+                app:layout_constraintStart_toStartOf="@id/ramenImg"
+                app:layout_constraintTop_toTopOf="@id/ramenImg" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/sobaImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/soba"
+                app:layout_constraintTop_toBottomOf="@id/ramenImg"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soba"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@id/sobaImg"
+                app:layout_constraintEnd_toEndOf="@id/sobaImg"
+                app:layout_constraintStart_toStartOf="@id/sobaImg"
+                app:layout_constraintTop_toTopOf="@id/sobaImg" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/sukiyakiImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/sukiyaki"
+                app:layout_constraintTop_toBottomOf="@id/sobaImg"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sukiyaki"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@id/sukiyakiImg"
+                app:layout_constraintEnd_toEndOf="@id/sukiyakiImg"
+                app:layout_constraintStart_toStartOf="@id/sukiyakiImg"
+                app:layout_constraintTop_toTopOf="@id/sukiyakiImg" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/somenImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/somen"
+                app:layout_constraintTop_toBottomOf="@id/sukiyakiImg"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Somen"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@id/somenImg"
+                app:layout_constraintEnd_toEndOf="@id/somenImg"
+                app:layout_constraintStart_toStartOf="@id/somenImg"
+                app:layout_constraintTop_toTopOf="@id/somenImg" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/houtouImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/houtou"
+                app:layout_constraintTop_toBottomOf="@id/sukiyakiImg"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Houtou"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                app:layout_constraintBottom_toBottomOf="@id/somenImg"
+                app:layout_constraintEnd_toEndOf="@id/somenImg"
+                app:layout_constraintStart_toStartOf="@id/somenImg"
+                app:layout_constraintTop_toTopOf="@id/somenImg" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="8dp"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleVerticalOffset="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/navBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
+
+            <LinearLayout
+                android:id="@+id/homeBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/home_icon" />
+
+                <TextView
+                    android:id="@+id/txtHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/searchBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/search_icon" />
+
+                <TextView
+                    android:id="@+id/txtSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pesquisar"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/favoriteBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgFavorite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/fav_icon" />
+
+                <TextView
+                    android:id="@+id/txtfavorite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Favoritos"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/definitionsBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgDefinitions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/definicoes_icon" />
+
+                <TextView
+                    android:id="@+id/txtdDefinitions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Definições"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

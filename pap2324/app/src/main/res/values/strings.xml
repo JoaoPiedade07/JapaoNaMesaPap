@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JapaoNaMesa</string>
+    <string name="sobre_nos">Nós somos uma aplicação com o objetivo de ajudar pessoas a poderem cozinhar em casa receitas japonesas </string>
+    <string name="katsuUdon_ingre">1 bife de lombo de mais ou menos um dedo ou mais de grossura;
+farinha panko;
+6 ovos;
+2 colheres de chá de molho shoyu;
+1 colher de sopa de sakê;
+2 colheres de sopa de açúcar;
+1 cebola média;
+arroz japonês.</string>
+    <string name="katsuUdon_prep">O primeiro passo de como fazer Katsudon é preparar o arroz japonês. Você deverá produzir o suficiente para caber na sua tigela, o que costuma ser um copo pequeno ou um pouco mais, dependendo do tamanho do equipamento.Enquanto o arroz é feito na panela, você deve preparar o tonkatsu, que é a costeleta de porco empanada. Quebre dois ovos em um recipiente e bata com um garfo. Depois, passe o lombo ali até ficar cheio de ovo e empane-o com a farinha panko. Em seguida, leve o lombo para ser frito em uma panela com óleo para cobri-lo totalmente. Deixe ele ficar bem dourado dos dois lados e retire-o para que possa soltar o óleo em excesso (o ideal é deixá-lo “de pé” para escorrer o óleo sem deixá-lo murcho). O próximo passo é preparar a mistura líquida com ovo que vai por cima do arroz. Para isso, corte a cebola em fatias de mais ou menos 1 centímetro de espessura ou um pouco menos e bata os 4 ovos. Pegue uma frigideira com tampa e coloque o seu dashi (ou substituto) com a cebola. Deixe ferver e adicione o açúcar e o sakê, misturando bem para o efeito caramelizado. Então adicione o tonkatsu cortado em pedaços e depois o ovo, espalhando-o ao redor do lombo e por cima dele.</string>
+</resources>

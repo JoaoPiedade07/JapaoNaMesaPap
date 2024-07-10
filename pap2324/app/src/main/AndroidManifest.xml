@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JapaoNaMesa_Pap"
+        tools:targetApi="31">
+        <activity
+            android:name=".ecraprincipal.udon.recepie.kare_udon_recepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.udon.recepie.wakame_udon_recepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.udon.recepie.tsukimi_udon_recepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.udon.recepie.katsu_udon_recepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.sukiyaki.sukiyakiRecepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.soba.sobaRecepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.houtou.houtouRecepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.ramen.ramenRecepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.udon.udonRecepies"
+            android:exported="false" />
+        <activity
+            android:name=".ecraprincipal.teste"
+            android:exported="false" />
+        <activity
+            android:name=".registos.VerificacaoEmail"
+            android:exported="false" />
+        <activity
+            android:name=".favoritos.Favoritos"
+            android:exported="false" />
+        <activity
+            android:name=".pesquisa.Pesquisa"
+            android:exported="false" />
+        <activity
+            android:name=".definicoes.Definicoes"
+            android:exported="false" />
+        <activity
+            android:name=".definicoes.About_us"
+            android:exported="false" />
+        <activity
+            android:name=".registos.Registo"
+            android:exported="false" />
+        <activity
+            android:name=".registos.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ecraprincipal.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

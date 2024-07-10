@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410160137770",
+    "project_id": "japaonamesa-pap",
+    "storage_bucket": "japaonamesa-pap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410160137770:android:0ddd6ab9d7b92241e26553",
+        "android_client_info": {
+          "package_name": "com.example.japaonamesa_pap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5uTIfgZ5_VOfBDXba3ka171zDZLPhkAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

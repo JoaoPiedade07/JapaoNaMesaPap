@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ecraprincipal.soba.sobaRecepies">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/voltar_icon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/katsuUdonImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/udon"
+                app:layout_constraintTop_toBottomOf="@id/imgVoltar"
+                app:shapeAppearanceOverlay="@style/circular"
+                tools:layout_editor_absoluteX="-38dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tonkatsu Ramen"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:layout_constraintBottom_toBottomOf="@id/katsuUdonImg"
+                app:layout_constraintEnd_toEndOf="@id/katsuUdonImg"
+                app:layout_constraintStart_toStartOf="@id/katsuUdonImg"
+                app:layout_constraintTop_toTopOf="@id/katsuUdonImg" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/tsukimiUdonImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/tsukimi_udon"
+                app:layout_constraintTop_toBottomOf="@id/katsuUdonImg"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spicy Egg Ramen"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:layout_constraintBottom_toBottomOf="@id/tsukimiUdonImg"
+                app:layout_constraintEnd_toEndOf="@id/tsukimiUdonImg"
+                app:layout_constraintStart_toStartOf="@id/tsukimiUdonImg"
+                app:layout_constraintTop_toTopOf="@id/tsukimiUdonImg" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/wakameUdonImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/wakame_udon"
+                app:layout_constraintTop_toBottomOf="@id/tsukimiUdonImg"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tonkotsu Style Ramen"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:layout_constraintBottom_toBottomOf="@id/wakameUdonImg"
+                app:layout_constraintEnd_toEndOf="@id/wakameUdonImg"
+                app:layout_constraintStart_toStartOf="@id/wakameUdonImg"
+                app:layout_constraintTop_toTopOf="@id/wakameUdonImg" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kareUdonImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0"
+                android:src="@drawable/kare_udon"
+                app:layout_constraintTop_toBottomOf="@id/wakameUdonImg"
+                app:shapeAppearanceOverlay="@style/circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miso Ramen"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:layout_constraintBottom_toBottomOf="@id/kareUdonImg"
+                app:layout_constraintEnd_toEndOf="@id/kareUdonImg"
+                app:layout_constraintStart_toStartOf="@id/kareUdonImg"
+                app:layout_constraintTop_toTopOf="@id/kareUdonImg" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
